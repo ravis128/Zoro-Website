@@ -21,7 +21,7 @@ export default function Showcase() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
-            className="text-5xl md:text-7xl font-heading font-bold text-white mb-6"
+            className="text-4xl sm:text-5xl md:text-7xl font-heading font-bold text-white mb-6"
           >
             Unmatched Elegance
           </motion.h2>
@@ -30,7 +30,7 @@ export default function Showcase() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="text-gray-400 max-w-2xl mx-auto text-lg font-light"
+            className="text-gray-400 max-w-2xl mx-auto text-base sm:text-lg font-light px-4 sm:px-0"
           >
             Every curve and surface is meticulously crafted to perfection. A harmonious blend of art and technology.
           </motion.p>

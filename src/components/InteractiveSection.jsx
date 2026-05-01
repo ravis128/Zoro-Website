@@ -55,8 +55,8 @@ export default function InteractiveSection() {
           <div className="inline-block px-4 py-1 rounded-full border border-white/20 text-xs font-mono tracking-widest text-white/60 mb-6 uppercase glass">
             Interactive
           </div>
-          <h2 className="text-5xl md:text-7xl font-heading font-bold text-white mb-6">
-            Shape The <br/> Future
+          <h2 className="text-4xl sm:text-5xl md:text-7xl font-heading font-bold text-white mb-6">
+            Shape The <br className="hidden sm:block"/> Future
           </h2>
           <p className="text-gray-400 font-light text-lg max-w-md mb-10">
             Interact with the abstract representation of our core engine. Drag to rotate, feel the physics and discover the depth.

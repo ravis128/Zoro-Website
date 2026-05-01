@@ -97,11 +97,11 @@ export default function HeroSequence() {
       <canvas ref={canvasRef} className="absolute inset-0 w-full h-full" />
       <div className="absolute inset-0 bg-black/40 pointer-events-none" />
       
-      <div className="hero-text-container absolute inset-0 flex flex-col items-center justify-center text-center z-10 pointer-events-none px-4">
-        <h1 className="hero-text text-6xl md:text-8xl lg:text-[10rem] font-heading font-black text-white tracking-tighter mb-4 drop-shadow-2xl mix-blend-overlay">
+      <div className="hero-text-container absolute inset-0 flex flex-col items-center justify-center text-center z-10 pointer-events-none px-6">
+        <h1 className="hero-text text-5xl sm:text-6xl md:text-8xl lg:text-[10rem] font-heading font-black text-white tracking-tighter mb-4 drop-shadow-2xl mix-blend-overlay">
           ZORO
         </h1>
-        <p className="hero-text text-xl md:text-3xl text-white font-light max-w-3xl drop-shadow-lg tracking-wide">
+        <p className="hero-text text-lg sm:text-xl md:text-3xl text-white font-light max-w-3xl drop-shadow-lg tracking-wide uppercase">
           BEYOND IMAGINATION
         </p>
       </div>

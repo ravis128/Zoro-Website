@@ -29,7 +29,7 @@ export default function Features() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
-              className="text-4xl md:text-6xl font-heading font-bold text-white mb-8"
+              className="text-3xl sm:text-4xl md:text-6xl font-heading font-bold text-white mb-8"
             >
               Engineered for the Extraordinary
             </motion.h2>

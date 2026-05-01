@@ -21,18 +21,18 @@ export default function Header() {
         scrolled ? 'bg-black/50 backdrop-blur-md border-b border-white/10 py-4' : 'bg-transparent py-6'
       }`}
     >
-      <div className="container mx-auto px-6 flex justify-between items-center">
-        <div className="text-2xl font-heading font-black text-white tracking-widest">
+      <div className="container mx-auto px-4 sm:px-6 flex justify-between items-center">
+        <div className="text-xl sm:text-2xl font-heading font-black text-white tracking-widest">
           ZORO
         </div>
         
-        <nav className="hidden md:flex gap-8 text-sm font-medium tracking-wide">
+        <nav className="hidden lg:flex gap-8 text-sm font-medium tracking-wide">
           <a href="#" className="text-white hover:text-white/70 transition-colors">VISION</a>
           <a href="#" className="text-white hover:text-white/70 transition-colors">DESIGN</a>
           <a href="#" className="text-white hover:text-white/70 transition-colors">EXPERIENCE</a>
         </nav>
         
-        <button className="px-6 py-2 bg-white text-black font-semibold rounded-full text-sm hover:scale-105 transition-transform duration-300">
+        <button className="px-4 py-1.5 sm:px-6 sm:py-2 bg-white text-black font-semibold rounded-full text-xs sm:text-sm hover:scale-105 transition-transform duration-300">
           Pre-Order
         </button>
       </div>
